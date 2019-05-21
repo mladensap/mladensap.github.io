@@ -1,0 +1,46 @@
+#main-carousel {
+    height: 850px;
+    background: url('../img/carousel.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 227px 0 0 0;
+}
+
+#main-carousel h1 {
+    font-family: 'lobsterregular';
+    color: #fff;
+    font-size: 85px;
+    text-align: center;
+    padding-bottom: 66px;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+#main-carousel h1:after {
+    content: '';
+    display: block;
+    height: 1px;
+    max-width: 210px;
+    width: 100%;
+    margin: auto;
+    background: url('../img/stich.png') repeat-x center center;
+    background-size: 30px 1px;
+    background-position-x: 10px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto 0 auto;
+}
+
+#main-carousel > p {
+    max-width: 350px;
+    font-size: 20px;
+    font-family: 'montserratregular';
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 70px;
+}

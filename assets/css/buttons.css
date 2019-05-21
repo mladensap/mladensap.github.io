@@ -1,0 +1,11 @@
+.btn_link:focus,
+.btn_link:visited,
+.btn_link:hover,
+.btn_link {
+    text-decoration: none;
+    padding: 14px 40px 20px;
+    background-color: #151d25;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}

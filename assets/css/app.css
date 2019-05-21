@@ -1,0 +1,34 @@
+/* font-family: 'Montserrat", sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/* font-family: 'Lobster', cursive; 
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap'); */
+
+@import url('fonts.css');
+
+@import url('font-awesome.css');
+
+/* Grid */
+@import url('reset.css');
+@import url('bootstrap.css');
+
+/* General */ 
+@import url('buttons.css');
+@import url('general.css');
+
+/* Sections */
+@import url('top_navigation.css');
+@import url('main_carousel.css');
+
+.wrap > .container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    outline: 0;
+}
